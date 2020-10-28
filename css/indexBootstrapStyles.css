@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+/*cover*/
+
+#cover{
+  /*background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+    background: url(/mynd/foo3.jpg);
+    height: 95%;
+    text-align: center;
+    /*display: flex;*/
+    align-items: center;
+    
+}
+#cover-texto{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: "Chelsea Market";
+    position: absolute;
+    top: 50%;
+}
+h1{
+    font-size: 80px;
+    font-weight: 200;
+} 
+
+
+
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 42, 42);
+    
+}
+
+.icons {
+    padding: 1rem 1rem;
+    border-radius: 100%;
+}
+
+.icons:hover {
+    transform: scale(1.5);
+}
+
+.footer .facebook .icons:hover {
+    background: #035aa6;
+}
+
+.footer .twitter .icons:hover {
+    background: #0779e4;
+}
+
+/*effect for instagram icon gradient*/
+
+.footer .instagram .icons:hover {
+    background: linear-gradient(to top right,
+            #fcde30,
+            #e9712a,
+            #d2313b,
+            #ae4198,
+            #7540a1,
+            #5443a8);
+}
